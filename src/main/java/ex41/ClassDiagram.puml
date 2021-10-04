@@ -1,0 +1,9 @@
+@startuml
+
+class Person {
+    -String name
+    +Person(String name1)
+    +Int compareTo()
+    +String getName()
+}
+@enduml
