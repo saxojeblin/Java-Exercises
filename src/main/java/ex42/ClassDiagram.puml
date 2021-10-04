@@ -1,0 +1,11 @@
+@startuml
+
+class Person {
+    -String fName
+    -String lName
+    -Int salary
+    +String getFirstName()
+    +String getLastName()
+    +String getSalary()
+}
+@enduml
