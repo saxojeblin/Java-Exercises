@@ -1,0 +1,11 @@
+@startuml
+class Website {
+    -String siteName
+    -String author
+    -boolean js
+    -boolean css
+    +void createWebsiteFolder()
+    +void createHtmlFile()
+    +void fileCreated()
+}
+@enduml
