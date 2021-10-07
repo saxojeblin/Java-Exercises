@@ -1,0 +1,11 @@
+@startuml
+class Products {
+    -String name
+    -Double price
+    -Int quantity
+    +String getName()
+    +Double getPrice()
+    +Int getQuantity()
+    +Void displayProductInfo()
+}
+@enduml
