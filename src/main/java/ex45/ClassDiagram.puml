@@ -1,0 +1,7 @@
+@startuml
+class WordFinder {
+    -String[] lines
+    +void replaceWords()
+    +void createOutput()
+}
+@enduml
