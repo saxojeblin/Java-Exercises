@@ -1,0 +1,7 @@
+@startuml
+class Word {
+    -String name
+    -Int frequency
+    +int compareTo()
+}
+@enduml
